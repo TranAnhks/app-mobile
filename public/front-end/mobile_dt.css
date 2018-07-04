@@ -1,0 +1,103 @@
+.mobile{
+  height: 260px;
+  position: relative;
+}
+.mobile .bt{
+   height: 210px;
+  transition: all ease 0.9s; 
+  padding: 0;
+}
+.mobile .ct {
+    opacity: 0;
+    height: 200px; 
+    width: 98%;
+    /* background: #003300; */
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px 5px 0 0;
+    transition: all ease 0.9s;   
+    transform: rotate(0deg);
+    padding: 10px;
+}
+.mobile .ct li{
+  list-style: none;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mobile .ct a:hover {
+  text-decoration: none;
+}
+.mobile:hover .ct{
+  opacity: 1;
+}
+.mobile:hover .bt{
+  opacity: 0;
+}
+.mobile .image-m {
+  width: 40%;
+ height: 200px;
+}
+.mobile .image-m img {
+  width: 95%;
+  height: 155px;
+  margin: auto;
+}
+.mobile .intro {
+  width: 60%;
+  height: 200px;
+}
+.mobile .intro li {
+  list-style: none;
+}
+
+.mobile .intro li:last-child{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title-mobile {
+  color: #2980b9;
+  font-size: 16px;
+}
+.add{
+  opacity: 0;
+  transition: all ease 0.9s;   
+}
+.mobile:hover .add{
+  opacity: 1;
+  transition: all ease 1.9s;    
+}
+  
+ 
+/* ============== style san pham mobile================= */
+.khuyenmai,.chinhsach li{
+ list-style: none;
+}
+.khuyenmai span{
+  color: blue;
+}
+.chinhsach span{
+  color: #16a085;
+}
+.pro-detail-title{
+  font-size: 18px;
+  padding-left: 17px;
+  margin-top: 1px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #2980b9;
+}
+.img-box{
+  height: 280px;
+}
+.price{
+  text-align: center;
+  font-size: 25px;
+  color: #FF0500;
+}
+

@@ -1,0 +1,18 @@
+nav.sidebar{
+	width: 200px;
+	height: 70%;
+	margin-left: -160px;
+	float: left;
+	z-index: 8000;
+	margin-bottom: 0px;
+}
+nav.sidebar li {
+	width: 100%;
+}
+nav.sidebar{
+	margin-left: 0px;
+	float: left;
+}
+nav.navbar-default.sidebar li a:hover{
+	background-color: #fbfbfb;
+}

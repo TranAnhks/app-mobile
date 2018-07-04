@@ -1,0 +1,22 @@
+#panel_pro{
+	background-color: #ecf0f1; color:#267AB7;
+}
+
+.navbar{
+	margin-bottom: 0
+}
+.panel-body{
+	font-size: 13px;
+}
+/*oder detail*/
+.status1{
+	color:#d35400;
+}
+.status2{
+	color:#003CFF;
+}
+
+/*product*/
+.chonsanpham{
+	margin-top: 7px;
+}

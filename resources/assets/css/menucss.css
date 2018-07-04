@@ -1,0 +1,23 @@
+/*ul li:hover .dropdown-menu{
+	display: block;
+}*/
+
+.nav ul li{
+	position: relative;
+}
+.nav ul li .dropdown-menu{
+	position: absolute;
+}
+.nav li:hover>.dropdown-menu{
+    display: block;
+}
+ 
+.nav>li>.dropdown-menu{
+    top: 50px;
+    left: 10;
+}
+
+
+
+
+

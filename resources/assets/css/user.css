@@ -1,0 +1,87 @@
+/*logo*/
+.hotline p{
+	font-size: 15px; margin-top: 50px;font-family: Helvetica, cursive, Tahoma, sans-serif;color:#666666c7;
+}
+.ngonngu{
+	margin-top: 25px;
+}
+.ngonngu a{
+	color: #777;
+}
+.ngonngu>li>a:focus, .ngonngu>li>a:hover{
+	background-color: #fff;
+	color: #333;
+}
+.ngonngu .open>a, .ngonngu .open>a:focus, .ngonngu .open>a:hover{
+	background-color: #fff;
+	color: #333;
+}
+/*menu*/
+
+
+.tr_giohang{
+	font-size: 14px
+}
+#giohang{
+	right:0; left: auto; min-width: 400px;
+}
+#dangnhap{
+	min-width: 160px;
+}
+.dropdown-item p{
+	color: #000000;padding: 10px 0px 1px 22px
+}
+
+#modal_dangnhap{
+	width: 28%;height: 100px;
+}
+#modal_footer_dn{
+	margin-left:12px 
+}
+.dangky{
+	color: #FF0000;
+}
+
+.img_activer{
+	width:100%;
+}
+.img_slide{
+	width: 100%;
+}
+
+#icon-facebook{
+	width:16px; 
+	height:20px;
+	padding: 5px 5px;
+}
+
+/*cart*/
+ 
+#soluong{
+	padding-left: 30px;
+}
+.qty{
+	width:30px; font-weight:bold; font-size:15px; color:blue;
+}
+.delete{
+	padding:5px; padding-left: 17px; font-size:18px; color:red;
+}
+.tongtien{
+	color:red;
+}
+
+/*mobile_detail*/
+.img_detail{
+	height: 320px;
+}
+.panel-info{
+	margin: 0;
+}
+.btnthemct{
+	font-size: 20px;
+}
+
+/*footer*/
+#footer_st{
+	margin-top: 15px;
+}
